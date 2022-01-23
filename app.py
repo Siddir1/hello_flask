@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	return "Hello World changed from github!"
+	return "Hello World git test!"
 
 if __name__ == "__main__":
 	app.run(host="0.0.0.0", debug=True)
